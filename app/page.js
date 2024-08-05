@@ -238,7 +238,7 @@ const App = () => {
               fontStyle: 'italic', 
               mt : 2
             }}>
-            Items you add and remove are updated in real time, helping you keep track of what's in your kitchen. 
+            Items you add and remove are updated in real time, helping you keep track of what&apos;s in your kitchen. 
           </Typography>
         </Box>
       </Box>
