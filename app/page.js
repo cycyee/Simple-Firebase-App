@@ -53,7 +53,9 @@ const App = () => {
     };
     
     useEffect(() => {
+      if (typeof(window) !== 'undefined') {
         updateInventory();
+      }
     }, []);
     
     const addItem = async (item) => {
